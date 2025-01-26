@@ -16,11 +16,5 @@ def main():
     print("Executing a command...")
     execute_command("ls")  # Example command
 
-    print("Reading a file...")
-    content = read_file("sensitive_data.txt")  # Potentially dangerous
-
-    print("Evaluating code...")
-    eval_code("print('This is malicious!')")  # Dangerous eval
-
 if __name__ == "__main__":
     main()
